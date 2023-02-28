@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+article{
+    min-width: 50vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background: #efefef;
+}
+.container{
+    width: 100%;
+}
+.card-wrapper{
+    display: flex;
+}
+.card{
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0 ,0 ,0.5);
+}
+.card .image-box{
+    height: 300px;
+}
+.card .image-box img{
+    height: 100%;
+    border-radius: 8px 8px 0 0 ;
+}
+.card .profile-details{
+    display: flex;
+    align-items: center;
+    /* column-gap: 10px; */
+    padding: 15px;
+}
+.card .profile-details img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.profile-details .name-job{
+    margin-left: 10px;
+}
+.profile-details .name{
+    font-size: 15px;
+    font-weight: 500;
+}
+.profile-details .date{
+    font-size: 12px;
+    font-weight: 400;
+    color: #4d4d4d;
+}
+.user-likes{
+    margin-left: 140px;
+}
+.user-likes .user{
+    font-size: 15px;
+    font-weight: 500;
+}
+.user-likes .user a{
+    color: grey;
+}
+.user-likes .likes{
+    font-size: 12px;
+    font-weight: 500;
+    color: #000;
+}
